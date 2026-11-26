@@ -1,0 +1,82 @@
+<!-- Garren Burke - [2510158] & Xavier Hawes - [2504358] @ Thursday 1-3pm -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About us | Ardenne High School</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="site-header" id="siteHeader"></header>
+
+    <main class="page layout">
+      <div>
+        <h1>About us</h1>
+
+        <section>
+          <h2>Our history</h2>
+          <div class="timeline" id="history"></div>
+        </section>
+
+        <section>
+          <h2>Landmark accomplishments</h2>
+          <div class="cards" id="achievements"></div>
+        </section>
+
+        <section>
+          <h2>Teacher directory</h2>
+          <label for="teacherSearch">Filter by name or subject
+            <input id="teacherSearch" type="text" placeholder="e.g. Mathematics">
+          </label>
+          <div class="table-wrap card">
+            <table>
+              <caption>Teachers and their assigned subjects</caption>
+              <thead>
+                <tr><th>Teacher</th><th>Subjects taught</th></tr>
+              </thead>
+              <tbody id="teacherRows"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Our mission</h3>
+          <p>
+            Ardenne develops the whole person: mentally, physically, socially,
+            academically and spiritually. Our motto, <em>Deo Duce Quaere Optima</em>,
+            means &ldquo;With God as Guide, Seek the Best.&rdquo;
+          </p>
+        </div>
+        <div class="card">
+          <h3>Principals</h3>
+          <ol>
+            <li>Mrs. Nellie Olson (to 1944)</li>
+            <li>Miss Mary Olson (1944 to 1969)</li>
+            <li>Miss E.M. Claire Gayle (1969 to 1979)</li>
+            <li>Mr. Roy J. Ebanks (1979 to 1996)</li>
+            <li>Mr. Winston Roberts (1996 to 2000)</li>
+            <li>Mrs. Esther Tyson (from 2000)</li>
+            <li>Miss Nadine A. Molloy (from 2012)</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Co-curricular activities</h3>
+          <p>Every student takes part in at least one.</p>
+          <ul>
+            <li>Sports: swimming, football, basketball, netball, lawn tennis, badminton, track and field</li>
+            <li>Clubs: ISCF, drama, dance, chess, Key Club, debating, choir</li>
+            <li>Service: cadets, guides, Interact, Ardenne Coalition of Environmentalists</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="site-footer" id="siteFooter"></footer>
+    <script defer src="js/app.js"></script>
+    <script defer src="js/about.js"></script>
+  </body>
+</html>
