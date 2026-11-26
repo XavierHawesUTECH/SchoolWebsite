@@ -66,26 +66,6 @@ a {
   gap: var(--space);
 }
 
-.site-header {
-  background: var(--deep);
-  color: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-/* Flexbox for the navigation bar */
-.site-header .bar-inner {
-  width: min(100% - 2rem, 72rem);
-  margin-inline: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding-block: 0.7rem;
-}
-
 .brand {
   display: flex;
   align-items: center;
@@ -509,7 +489,6 @@ td input {
 
 /* ---------- Print: report cards ---------- */
 @media print {
-  .site-header,
   .site-footer,
   .tabs,
   .no-print {
